@@ -1,0 +1,106 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88" width="88" height="88">
+	<title>HomePage</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="44.102" y1="46.432" x2="44.102" y2="61.852">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="44.017" y1="46.432" x2="44.017" y2="87.724">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+		<linearGradient id="grd3" gradientUnits="userSpaceOnUse"  x1="44.102" y1="46.432" x2="44.102" y2="51.572">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+		<linearGradient id="grd4" gradientUnits="userSpaceOnUse"  x1="44.102" y1="0" x2="44.102" y2="20.56">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+		<linearGradient id="grd5" gradientUnits="userSpaceOnUse"  x1="69.888" y1="0" x2="69.888" y2="20.56">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+		<linearGradient id="grd6" gradientUnits="userSpaceOnUse"  x1="18.316" y1="0" x2="18.316" y2="20.56">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+		<linearGradient id="grd7" gradientUnits="userSpaceOnUse"  x1="72.919" y1="22.939" x2="72.919" y2="41.292">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+		<linearGradient id="grd8" gradientUnits="userSpaceOnUse"  x1="44.102" y1="25.701" x2="44.102" y2="41.292">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+		<linearGradient id="grd9" gradientUnits="userSpaceOnUse"  x1="15.2" y1="22.939" x2="15.2" y2="41.292">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: url(#grd2) } 
+		.shp2 { fill: url(#grd3) } 
+		.shp3 { fill: url(#grd4) } 
+		.shp4 { fill: url(#grd5) } 
+		.shp5 { fill: url(#grd6) } 
+		.shp6 { fill: url(#grd7) } 
+		.shp7 { fill: url(#grd8) } 
+		.shp8 { fill: url(#grd9) } 
+	</style>
+	<g id="HomePage">
+		<g id="Group 685">
+			<g id="Group 462">
+				<g id="settings" style="opacity: 0.302">
+					<g id="Group 412">
+						<g id="Group 411">
+							<path id="Path 12282" class="shp0" d="M56.78 46.43C55.58 52.29 50.22 56.71 44.02 56.71C37.81 56.71 32.62 52.29 31.43 46.43L26.29 46.43C27.55 55.13 34.98 61.85 44.02 61.85C53.06 61.85 60.66 55.13 61.92 46.43L56.78 46.43Z" />
+						</g>
+					</g>
+					<g id="Group 414">
+						<g id="Group 413">
+							<path id="Path 12283" class="shp1" d="M67.06 46.43C65.76 57.97 55.89 66.99 44.02 66.99C32.14 66.99 22.44 57.97 21.15 46.43L0.15 46.43L0.15 49C0.15 50.11 0.86 51.09 1.91 51.44L12.49 54.89C12.93 56.15 13.4 57.3 13.9 58.36L9.03 68.16C8.53 69.15 8.73 70.34 9.51 71.12L16.76 78.37C17.54 79.15 18.73 79.34 19.72 78.85L29.52 73.97C30.58 74.48 31.73 74.95 32.99 75.39L36.44 85.96C36.79 87.01 37.77 87.72 38.88 87.72L49.33 87.72C50.43 87.72 51.42 87.01 51.77 85.96L55.22 75.39C56.48 74.95 57.63 74.48 58.68 73.97L68.49 78.85C69.47 79.34 70.67 79.15 71.45 78.37L78.7 71.12C79.48 70.34 79.67 69.15 79.18 68.16L74.3 58.36C74.8 57.3 75.27 56.15 75.72 54.89L86.12 51.44C87.17 51.09 87.88 50.11 87.88 49L87.88 46.43L67.06 46.43Z" />
+						</g>
+					</g>
+					<g id="Group 416">
+						<g id="Group 415">
+							<path id="Path 12284" class="shp2" d="M36.78 46.43C37.84 49.42 40.67 51.57 44.02 51.57C47.36 51.57 50.36 49.42 51.42 46.43L36.78 46.43Z" />
+						</g>
+					</g>
+					<g id="Group 418">
+						<g id="Group 417">
+							<path id="Path 12285" class="shp3" d="M44.02 0C38.35 0 33.74 4.61 33.74 10.28C33.74 15.95 38.35 20.56 44.02 20.56C49.69 20.56 54.47 15.95 54.47 10.28C54.47 4.61 49.69 0 44.02 0Z" />
+						</g>
+					</g>
+					<g id="Group 420">
+						<g id="Group 419">
+							<path id="Path 12286" class="shp4" d="M69.89 0C64.22 0 59.61 4.61 59.61 10.28C59.61 15.95 64.22 20.56 69.89 20.56C75.56 20.56 80.17 15.95 80.17 10.28C80.17 4.61 75.56 0 69.89 0Z" />
+						</g>
+					</g>
+					<g id="Group 422">
+						<g id="Group 421">
+							<path id="Path 12287" class="shp5" d="M18.32 0C12.65 0 8.04 4.61 8.04 10.28C8.04 15.95 12.65 20.56 18.32 20.56C23.99 20.56 28.6 15.95 28.6 10.28C28.6 4.61 23.99 0 18.32 0Z" />
+						</g>
+					</g>
+					<g id="Group 424">
+						<g id="Group 423">
+							<path id="Path 12288" class="shp6" d="M78.65 22.94C76.16 24.67 73.15 25.7 69.89 25.7C66.64 25.7 63.64 24.68 61.15 22.96C60.02 23.61 58.94 24.34 57.96 25.22C62.96 28.95 66.43 34.79 67.16 41.29L87.88 41.29L87.88 38.72C87.88 32 84.13 26.03 78.65 22.94Z" />
+						</g>
+					</g>
+					<g id="Group 426">
+						<g id="Group 425">
+							<path id="Path 12289" class="shp7" d="M44.02 25.7C34.97 25.7 27.46 32.59 26.21 41.29L61.99 41.29C60.75 32.59 53.06 25.7 44.02 25.7Z" />
+						</g>
+					</g>
+					<g id="Group 428">
+						<g id="Group 427">
+							<path id="Path 12290" class="shp8" d="M27.05 22.96C24.57 24.68 21.56 25.7 18.32 25.7C15.06 25.7 12.04 24.67 9.55 22.94C4.07 26.03 0.15 32 0.15 38.72L0.15 41.29L21.04 41.29C21.78 34.79 25.25 28.95 30.25 25.22C29.26 24.34 28.18 23.61 27.05 22.96Z" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

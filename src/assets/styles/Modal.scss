@@ -1,0 +1,138 @@
+.modal {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  .modal__close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .modal__container {
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    background: #000;
+    border: 1px solid #b6cf6f;
+    z-index: 101;
+    padding: 5%;
+    .modal__closeIcon {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      height: 20px;
+      cursor: pointer;
+    }
+    .modal__content {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 520px) {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .modal__img {
+        height: 250px;
+        @media only screen and (min-device-width: 321px) and (max-device-width: 520px) {
+          height: 150px;
+          margin-bottom: 10px;
+        }
+        @media only screen and (max-device-width: 320px) {
+          height: 120px;
+          margin-bottom: 10px;
+        }
+      }
+      .modal__title {
+        width: 100%;
+        .modal__header {
+          font-weight: bold;
+          font-size: 52.2787px;
+          line-height: 78px;
+          text-align: center;
+          letter-spacing: 0.1em;
+          color: #b6cf6f;
+          @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: 0em;
+            margin-bottom: 10px;
+          }
+        }
+        .modal__desp {
+          font-size: 23.9611px;
+          line-height: 36px;
+          text-align: center;
+          letter-spacing: -0.01em;
+          color: #eaeaea;
+          @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+            font-size: 18px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+    .modal__email {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin: 20px 0;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 520px) {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .modal__input {
+        flex-grow: 1;
+        padding: 10px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        color: black;
+        border: 1px solid transparent;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 520px) {
+          border-radius: 6px;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+      }
+      .modal__button {
+        background: #b6cf6f;
+        font-size: 15px;
+        font-weight: bold;
+        border: 1px solid transparent;
+        padding: 10px 25px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        cursor: pointer;
+        white-space: nowrap;
+        transition: all 0.3s linear;
+        &:hover {
+          color: #b6cf6f;
+          border: #b6cf6f solid 1px;
+          background: #000;
+        }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 520px) {
+          border-radius: 6px;
+          width: 70%;
+          max-width: 160px;
+        }
+      }
+    }
+    .modal__spam {
+      display: flex;
+      justify-content: center;
+      font-weight: lighter;
+      font-size: 12px;
+      padding-top: 3%;
+      opacity: 0.5;
+    }
+  }
+}

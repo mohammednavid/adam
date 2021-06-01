@@ -1,0 +1,101 @@
+.ratings__container {
+  position: relative;
+  margin-top: 150px;
+}
+.swiper-container {
+  height: 400px;
+  z-index: 10;
+  @media screen and (min-width: 1600px) {
+    height: 500px;
+  }
+  @media screen and (max-width: 620px) {
+    height: 220px;
+  }
+  @media screen and (max-width: 380px) {
+    height: 180px;
+  }
+}
+.swiper-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ratings__slide {
+  width: 100%;
+  height: 75%;
+  border-radius: 12px;
+  background-color: #114b8c;
+  font-size: 28px;
+  padding: 5%;
+  @media screen and (min-width: 1600px) {
+    height: 350px;
+  }
+  @media screen and (max-width: 620px) {
+    height: 180px;
+    padding: 10px;
+  }
+  @media screen and (max-width: 380px) {
+    height: 160px;
+    padding: 5px;
+  }
+
+  .swiper-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  .star {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    img {
+      margin-right: 5px;
+    }
+  }
+  .ratings__title {
+    padding-top: 20px;
+    font-size: 21px;
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+    @media screen and (max-width: 620px) {
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  }
+  .ratings__desp {
+    padding-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: left;
+    color: #fff;
+    opacity: 0.8;
+    @media screen and (max-width: 620px) {
+      padding-top: 10px;
+      font-size: 12px;
+      line-height: 12px;
+    }
+  }
+  .ratings__bottom {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @media screen and (max-width: 620px) {
+      padding-top: 10px;
+    }
+    .ratings__img {
+      height: 50px;
+      margin-right: 15px;
+      @media screen and (max-width: 620px) {
+        height: 30px;
+      }
+    }
+    .ratings__username {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}

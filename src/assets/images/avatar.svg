@@ -1,0 +1,34 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 87" width="86" height="87">
+	<title>HomePage</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="31.65" y1="30.485" x2="10.326" y2="65.803">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#335570"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="63.891" y1="1" x2="63.891" y2="107.785">
+			<stop offset="0" stop-color="#49d695"  />
+			<stop offset="1" stop-color="#114b8c"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: url(#grd2) } 
+		.shp2 { fill: #d6f3fe } 
+		.shp3 { fill: #bdecfc } 
+	</style>
+	<g id="HomePage">
+		<g id="Group 685">
+			<g id="Group 461">
+				<g id="Group 410" style="opacity: 0.302">
+					<path id="Path 12276" class="shp0" d="M42.59 86.19C19.05 86.19 0 67.11 0 43.59C0 20.05 19.05 1 42.59 1C66.14 1 85.19 20.05 85.19 43.59C85.19 67.13 66.11 86.19 42.59 86.19Z" />
+					<path id="Path 12277" class="shp1" d="M42.59 1L42.59 86.19C66.11 86.19 85.19 67.13 85.19 43.59C85.19 20.05 66.14 1 42.59 1Z" />
+					<path id="Path 12278" class="shp2" d="M42.59 53.58C30.2 53.58 18.38 58.99 9.75 70.71C26.95 91.5 58.78 91.32 75.74 70.34C71.55 66.17 62.12 53.58 42.59 53.58L42.59 53.58Z" />
+					<path id="Path 12279" class="shp3" d="M75.74 70.34C67.73 80.24 55.72 86.19 42.59 86.19L42.59 53.58C62.12 53.58 71.55 66.17 75.74 70.34L75.74 70.34Z" />
+					<path id="Path 12280" class="shp2" d="M42.59 46.09C34.34 46.09 27.62 39.37 27.62 31.11L27.62 26.12C27.62 17.87 34.34 11.15 42.59 11.15C50.85 11.15 57.57 17.87 57.57 26.12L57.57 31.11C57.57 39.37 50.85 46.09 42.59 46.09Z" />
+					<path id="Path 12281" class="shp3" d="M42.59 11.15L42.59 46.09C50.85 46.09 57.57 39.37 57.57 31.11L57.57 26.12C57.57 17.87 50.85 11.15 42.59 11.15Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

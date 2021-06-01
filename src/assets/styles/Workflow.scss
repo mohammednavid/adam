@@ -1,0 +1,272 @@
+.workflow {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 3% 5%;
+  @media screen and (min-width: 1280px) {
+    padding: 5% 8%;
+  }
+  .workflow__title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    max-width: 280px;
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    border-radius: 7px;
+    color: #ffffff;
+    padding: 7px 30px;
+    background: linear-gradient(90deg, #114b8c 5%, #3bbffb 60%, #5bdb5b 98%);
+  }
+  .workflow__top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    @media screen and (max-width: 620px) {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+    .workflow__container {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      @media screen and (max-width: 620px) {
+        display: grid;
+        justify-content: center;
+        margin-bottom: 50px;
+      }
+      .workflow__avatar {
+        position: relative;
+        .workflow__avatarIcon {
+          position: absolute;
+          top: -40px;
+          left: -35px;
+          z-index: -1;
+          @media screen and (max-width: 620px) {
+              left: 195px;
+        }
+        }
+      }
+      .workflow__setting {
+        position: relative;
+        .workflow__settingIcon {
+          position: absolute;
+          top: -50px;
+          right: -40px;
+          z-index: -1;
+          @media screen and (max-width: 620px) {
+            right: 195px;
+      }
+        }
+      }
+      .workflow__password {
+        position: relative;
+        .workflow__passwordIcon {
+          position: absolute;
+          top: -30px;
+          right: -0px;
+          z-index: -1;
+          @media screen and (max-width: 620px) {
+            right:10px;
+      }
+        }
+      }
+      .workflow__arrowRight1 {
+        margin-left: 30px;
+        width: 110px;
+        // @media screen and (max-width: 620px) {
+        // }
+        @media screen and (max-width: 620px) {
+          transform: rotate(90deg);
+          margin-left: 180px;
+          margin-top:20px;
+        }
+        @media screen and (min-width: 621px) {
+          margin-top: 20px;
+          width: 110px;
+        }
+        @media screen and (min-width: 1280px) {
+          margin-left: 50px;
+          width: 200px;
+        }
+        @media screen and (min-width: 1800px) {
+          margin-left: 50px;
+          width: 250px;
+        }
+      }
+      .workflow__arrowRight2 {
+        margin-left: 30px;
+        width: 110px;
+        @media screen and (max-width: 620px) {
+          display: none;
+        }
+        @media screen and (min-width: 621px) {
+            margin-top: 20px;
+            width: 110px;
+          }
+          @media screen and (min-width: 1280px) {
+            margin-left: 50px;
+            width: 200px;
+          }
+          @media screen and (min-width: 1800px) {
+            margin-left: 50px;
+            width: 250px;
+          }
+      }
+      .workflow__arrowRight3 {
+        transform: rotate(270deg);
+        margin-left: -10px;
+        margin-top:20px;
+        width: 110px;
+        @media screen and (min-width: 621px) {
+          display: none;
+        }
+      }
+    }
+  }
+  .workflow__bottom {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    padding-top: 10%;
+    @media screen and (max-width: 620px) {
+        flex-wrap:wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+      }
+    .workflow__container {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      @media screen and (max-width: 620px) {
+        flex-wrap:wrap-reverse;
+        justify-content: center;
+        padding-bottom: 70px;
+      }
+      .workflow__statistics {
+        position: relative;
+        .workflow__statisticsIcon {
+          position: absolute;
+          top: -25px;
+          left: -5px;
+          z-index: -1;
+          @media screen and (max-width: 620px) {
+            left: 195px;
+      }
+        }
+      }
+      .workflow__advertise {
+        position: relative;
+        @media screen and (max-width: 620px) {
+            width: 100%;
+        }
+        .workflow__advertiseIcon {
+          position: absolute;
+          top: -50px;
+          right: -15px;
+          z-index: -1;
+          @media screen and (max-width: 380px) {
+            left: 20px;
+            top:-60px;
+      }
+          @media screen and (max-width: 440px) {
+            left: 40px;
+            top:-60px;
+      }
+          @media screen and (max-width: 620px) {
+            right: 280px;
+            top:-60px;
+      }
+        }
+      }
+      .workflow__arrowLeft1 {
+        margin-left: 30px;
+        transform: rotateY(180deg);
+        @media screen and (max-width: 620px) {
+            display:none;
+        }
+        @media screen and (min-width: 621px) {
+          margin-top: 20px;
+          width: 110px;
+        }
+        @media screen and (min-width: 1280px) {
+          margin-left: 50px;
+          width: 200px;
+        }
+        @media screen and (min-width: 1800px) {
+          margin-left: 50px;
+          width: 250px;
+        }
+      }
+      .workflow__arrowLeft2 {
+        transform: rotate(270deg);
+        // top: 0;
+        margin-left: -100px;
+        margin-top: -60px;
+        position: absolute;
+        width:110px;
+        @media screen and (min-width: 621px) {
+          display: none;
+        }
+      }
+      .workflow__arrowBottom {
+        margin-left: 30px;
+        transform: rotate(140deg);
+        margin-top: -50px !important;
+        @media screen and (max-width: 620px) {
+            width: 110px;
+            transform: rotate(90deg);
+            margin-left: 200px;
+            margin-top:-70px !important;
+        }
+        @media screen and (min-width: 621px) {
+          margin-top: 20px;
+          width: 110px;
+        }
+        @media screen and (min-width: 1280px) {
+          margin-left: 50px;
+          width: 200px;
+        }
+        @media screen and (min-width: 1800px) {
+          margin-left: 50px;
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+.workflow__header {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-weight: bolder;
+  padding-bottom: 3%;
+  margin: 0 auto;
+  white-space: nowrap !important;
+  @media screen and (min-width: 889px) {
+    font-size: 3rem;
+    line-height: 4.5rem;
+  }
+  // @media screen and (min-width: 1200px) {
+  //   font-size: 3.5rem;
+  //   line-height: 4.5rem;
+  // }
+}
+.workflow__desp {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 280px;
+  @media screen and (min-width: 621px) and (max-width: 889px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}

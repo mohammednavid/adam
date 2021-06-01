@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #114B8B;
+}
+body {
+  font-family: Lato, Arial, Helvetica;
+  background: #ffffff;
+}
+button,
+a,
+li,
+div,
+p,
+span,
+pre {
+  font-family: Lato, Arial, Helvetica;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}

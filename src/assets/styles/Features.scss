@@ -1,0 +1,94 @@
+.features {
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 5%;
+  margin: 0 auto;
+  @media screen and (min-width: 1200px) {
+    padding: 0 8%;
+  }
+  .features__section {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 220px;
+    white-space: nowrap;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    color: #ffffff;
+    padding: 5px;
+    background: linear-gradient(90deg, #114b8c 5%, #3bbffb 60%, #5bdb5b 98%);
+    @media screen and (min-width: 889px) {
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+  .features__header {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+    padding-bottom: 3%;
+    margin: 0 auto;
+    @media screen and (min-width: 889px) {
+      text-align: left;
+      font-size: 2.7rem;
+      line-height: 3.8rem;
+    }
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+      font-size: 3.5rem;
+      line-height: 4.5rem;
+    }
+  }
+  .features__container {
+    @media screen and (min-width: 889px) {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    @media screen and (min-width: 621px) {
+    //   display: flex;
+    //   justify-content: space-between;
+    //   align-items: flex-start;
+    columns: 2;
+    margin:0 auto;
+    }
+    .features__content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 20px;
+      padding-right: 20px;
+      @media screen and (max-width: 888px) {
+        align-items: center;
+      }
+      .features__img {
+        width: 120px;
+      }
+      .features__title {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        font-weight: bold;
+        padding-top: 30px;
+        @media screen and (max-width: 620px) {
+        font-size:1.3rem;
+      }
+      }
+      .features__desp {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        padding-bottom: 20px;
+        max-width: 250px;
+        margin: 0 auto;
+        text-align: center;
+        @media screen and (min-width: 889px) {
+          text-align: left;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
